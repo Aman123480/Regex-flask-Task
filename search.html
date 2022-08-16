@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex</title>
+</head>
+<body>
+    <h4>Here are your Entered Details:
+        <br>
+        Regex Entered: {{ r }}
+        <br>
+        String Entered: {{ n }}</h4>
+
+    {% if y>0 %}
+        <h3>Match found!</h3>
+        <br>
+        <h4>No of matches in the given string = {{ y }}
+            Matches are = {{ x }}</h4>
+    {% else %}
+        <h3>No Match Found!</h3>
+    {% endif %}
+</body>
+</html>
